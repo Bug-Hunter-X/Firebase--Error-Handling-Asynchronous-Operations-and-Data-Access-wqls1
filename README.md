@@ -1,0 +1,2 @@
+# Firebase Asynchronous Operation Error
+This repository demonstrates a common error in Firebase when handling asynchronous operations and accessing data from document snapshots. The `bug.js` file shows the problematic code that attempts to access data before the promise resolves, resulting in a `TypeError`. The `bugSolution.js` file provides a corrected version using `.then()` to handle the promise and ensure data is available before accessing it.
